@@ -1,0 +1,143 @@
+/* Body Background */
+.body_background {
+    background-image: url('https://wallpapercave.com/wp/wp3136573.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Recess Title Div & Image */
+.recess_title_div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.recess_title {
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    max-height: 450px;
+    filter: drop-shadow(2px 2px 18px rgb(71, 38, 11));
+    /*border: 3px solid green;*/
+    margin-bottom: -120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Div for paragraph line under title */
+.recess_intro_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    position: relative;    
+    margin: min-content;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.recess_p {
+    font-size: 30px;
+    color: white;
+    filter: drop-shadow(2px 2px 18px black);
+    margin-bottom: 20px;
+}
+
+/* All Characters Div */
+.all_cartoon_characters_section {
+    display: flex;
+    flex-direction: row;
+    /*border: 3px solid green;*/
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.cartoon_character {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    filter: drop-shadow(2px 2px 18px rgb(0, 0, 0));
+    /*border: 3px solid rgb(138, 141, 138);*/
+}
+
+/* Footer Div and Paragraph */
+.footer_div {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: static;
+    /*border: 3px solid green;*/
+    background-color: black;
+    width: unset;
+    margin-left: -11px;
+    margin-right: -25px;
+    bottom: 0px;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+} 
+
+.footer_p {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 5px;
+    filter: drop-shadow(0px 2px 3px black);
+}
+
+.github i{
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -30px;
+    /*border: 3px solid green;*/
+  }
+
+
+/* Overlay for Names for Images*/
+.overlay_brittany, .overlay_cody, .overlay_mitchell, .overlay_tatiana {
+    position: relative;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+.character_bart_div:hover .overlay_brittany {
+    opacity: 3;
+}
+
+.character_bulma_div:hover .overlay_cody {
+    opacity: 3;
+}
+
+.character_stewie_div:hover .overlay_mitchell {
+    opacity: 3;
+}
+
+.character_frizzle_div:hover .overlay_tatiana {
+    opacity: 3;
+}
+
+.name {
+    color: white;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: black, 1;
+    filter: drop-shadow(0px 2px 3px black);
+    letter-spacing: 1px;
+  }
+/*
+      <div class="character_bart_div">
+                <img class="cartoon_character character_bart" src="images/simsons-bart.png" alt="Bart Simpson">
+                <div class="overlay_brittany">
+                    <div class="name">Brittany</div>
+                </div>
+            </div>
+*/
