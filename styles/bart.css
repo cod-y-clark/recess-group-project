@@ -1,0 +1,258 @@
+/* Bart Background */
+.bart_background {
+    background-image: url('https://i.pinimg.com/564x/c6/0c/7e/c60c7e1c4ea5d5df1f3a11c9a33bb59e.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header Black Top of Page */
+.header_top_black_strip {
+    /* border: 3px solid green; */
+    background-color: black;
+    display: flex;
+    /* position: static; */
+    margin-left: -11px;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* Bart Title Div & Title Image */
+.bart_title {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: -60px;
+    /* border: 3px solid green; */
+}
+
+.bart_title_img {
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    max-height: 420px;
+    filter: drop-shadow(2px 2px 8px rgb(71, 50, 32));
+    /* border: 3px solid green; */
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+   
+/* Bart YT Video */
+.bart_video_section {
+    /* border: 3px solid green; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    filter: drop-shadow(2px 2px 18px rgb(71, 50, 32));
+}
+
+/* Meet Bart Section */
+.h2_bart_about_section {
+    padding-top: 80px;
+    /* border: 3px solid green;  */
+}
+
+.h2_bart_about {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-right: 40px;
+    filter: drop-shadow(2px 2px 18px rgb(58, 27, 27));
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 40px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 3px solid green;  */
+}
+
+.bart_about {
+    /* border: 3px solid green; */
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Global Paragraphs */
+p {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+/* Bart's Gallery */
+.h2_bart_gallery {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-right: 40px;
+    filter: drop-shadow(2px 2px 18px rgb(58, 27, 27));
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 40px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 3px solid green;  */
+}
+
+.bart_images_section {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid green; */
+    justify-content: space-evenly; 
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.bart_scene {
+    display: flex;
+    flex-direction: row;
+    height: 230px;
+    filter: drop-shadow(2px 2px 18px rgb(0, 0, 0));
+    /*border: 3px solid rgb(138, 141, 138);*/
+}
+
+/* Bart's Fun Facts Section */
+.h2_fun_facts_section {
+    /* border: 3px solid green;  */
+}
+
+.h2_fun_facts {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding-left: 10px;
+    margin-right: 650px;
+    filter: drop-shadow(2px 2px 18px rgb(58, 27, 27));
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: 3px solid green;  */
+}
+
+.bart_facts {
+    padding-left: 40px;
+    /* border: 3px solid green; */
+}
+
+ol {
+    display: flex wrap;
+    margin-right: 40%;
+    font-size: 22px;
+    /* border: 3px solid green; */
+    line-height: 20px;
+}
+
+/* Visit Other Character Pagees  */
+.h2_above_other_character {
+    color: rgb(255, 248, 248);
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: 22px;
+    filter: drop-shadow(2px 2px 8px rgb(10, 4, 4));
+}
+
+.h2_other_character {
+    background-color: rgb(0, 0, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* All Characters Div on Bart Page */
+.all_cartoon_characters_section {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid green; */
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+
+.cartoon_character {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    filter: drop-shadow(2px 2px 18px rgb(0, 0, 0));
+    /*border: 3px solid rgb(138, 141, 138);*/
+}
+
+/* Bart's Footer Div and Paragraph */
+.bart_footer_section {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: static;
+    /*border: 3px solid green;*/
+    background-color: black;
+    width: unset;
+    margin-left: -11px;
+    margin-right: -10px;
+    bottom: 0px;
+    padding-bottom: 20px;
+    margin-bottom: -20px;
+} 
+
+.bart_footer_p {
+    font-size: 18px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.main_home_page i{
+    display: flex;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -30px;
+    /*border: 3px solid green;*/
+  }
+
+/* Overlay for Names for Images (on Bart's page) */
+.overlay_brittany, .overlay_cody, .overlay_mitchell, .overlay_tatiana {
+    position: relative;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+.character_bart_div:hover .overlay_brittany {
+    opacity: 3;
+}
+
+.character_bulma_div:hover .overlay_cody {
+    opacity: 3;
+}
+
+.character_stewie_div:hover .overlay_mitchell {
+    opacity: 3;
+}
+
+.character_frizzle_div:hover .overlay_tatiana {
+    opacity: 3;
+}
+
+.name {
+    color: white;
+    font-size:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: black, 1;
+    filter: drop-shadow(0px 2px 3px black);
+    letter-spacing: 1px;
+  }
+
+
