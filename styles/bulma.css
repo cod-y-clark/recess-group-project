@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(8, 253, 200);
+    font-family: 'Acme', sans-serif;
+}
+
+.dragon_ball_logo {
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+
+.ball_row {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 4em;
+}
+
+.bulma_video {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+h2 {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+hr.rounded {
+    border-top: 5px solid black;
+    border-radius: 2px;
+}
+
+.about_bulma {
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-bottom: 4em;
+}
+
+.bulma_images {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.bulma_list {
+    font-size: 20px;
+    max-width: 710px;
+    margin: 0px auto;
+    margin-bottom: 4em;
+}
+
+.bulma_facts {
+    font-size: 20px;
+    max-width: 550px;
+    margin: 0px auto;
+    margin-bottom: 4em;
+}
+
+.all_cartoon_characters_section {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+}
+
+.cartoon_character {
+    /* width: 150px; */
+    height: 150px;
+}
+
+.overlay_brittany, .overlay_cody, .overlay_mitchell, .overlay_tatiana {
+    position: relative;
+    opacity: 0;
+    transition: .5s ease;
+  }
+
+.character_bart_div:hover .overlay_brittany {
+    opacity: 3;
+}
+
+.character_bulma_div:hover .overlay_cody {
+    opacity: 3;
+}
+
+.character_stewie_div:hover .overlay_mitchell {
+    opacity: 3;
+}
+
+.character_frizzle_div:hover .overlay_tatiana {
+    opacity: 3;
+}
+
+.name {
+    color: #ff8f66;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: black, 1;
+    filter: drop-shadow(0px 2px 3px black);
+    letter-spacing: 1px;
+  }
+
+  footer {
+      margin-top: 4em;
+      text-align: center;
+  }
+
+  .capsule {
+      vertical-align: middle;
+  }
+
+  .created {
+      display: inline-block;
+      margin-bottom: 4em;
+  }
